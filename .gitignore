@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Build outputs (папки компиляции)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# CMake (если будешь использовать)
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# IDE
+.idea/
+.vscode/
+
+# Temp files
+*.log
+Thumbs.db
+~$*
